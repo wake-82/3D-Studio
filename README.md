@@ -44,7 +44,7 @@ To avoid errors during the final merge, ensure all clips use the same video enco
 Video Merge: Once all clips are converted to 3D, go to the Video Merge tab.<br>
 Specify the folder containing the converted clips, select the original video for the audio source, and click the Merge button to generate the final 3D video.<br>
 
-__⌨️ Keyboard ShortcutsShortcutAction__<br>
+__⌨️ Keyboard ShortcutsShortcutAction__ <br>
 Move frame backward/forward: Ctrl + ← / →<br>
 Navigate between clips: Alt + ← / →<br>
 Select all clips: Alt + A<br>
