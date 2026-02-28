@@ -1,0 +1,33 @@
+### Python ###
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+### 빌드 및 배포 관련 (PyInstaller) ###
+# 이 폴더들은 빌드 시 생성되므로 깃허브에 올릴 필요가 없습니다.
+build/
+dist/
+*.spec
+
+### 설정 및 로그 파일 ###
+# 개발자의 로컬 경로가 저장된 설정 파일은 제외합니다.
+integrated_config.json
+config.json
+presets.json
+*.log
+
+### 외부 프로그램 및 라이브러리 (배포 제외 대상) ###
+# 사용자가 별도로 설치해야 하므로 프로젝트에 포함하지 않습니다.
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+nunif/
+iw3/
+scenedetect/
+
+### 임시 작업 폴더 및 결과물 ###
+temp_work_dir/
+output/
+*.mp4
+*.mkv
